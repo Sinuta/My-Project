@@ -1,0 +1,119 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style/style.css">
+  <script src="script/streetlights.js"></script>
+  <script src="script/script3.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
+<body>
+<!-- logo-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-2">
+        <img class="logo" src="image/logo_bel.jpg.png" width="80" height="70">
+      </div>
+      <div class="col-sm-6">
+        <div class='bel'> BEL Smart Street Lighting </div>
+      </div>
+    </div>
+  </div> <br><br>
+<!--    buttons-->
+  <div class=butttons>
+    <div id="buttons">
+      <a class="btn btn-primary" href="BELsmartstreetlight.html" role="button">Home</a>
+      <a class="btn btn-primary" href="Features.html" role="button">Features</a>
+      <a class="btn btn-primary" href="Ourproducts.html" role="button">Our products</a>
+      <a class="btn btn-primary" href="Servicesweprovide.html" role="button">Services we provide</a>
+      <a class="btn btn-primary" href="contactus.html" role="button">Contact us</a>
+  </div>
+  </div>
+
+    <!--    bread crumbs-->
+    <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="BELsmartstreetlight.html">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Our products</li>
+    </ol>
+    </nav><br>
+
+    <!--    json table-->
+    </body>
+<body onload="show_streetlights();">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <form onsubmit="return false;" class="form-inline">
+          <input class="form-control" id="search-text" type="text">
+          <button onclick="search_streetlights();" class="btn btn-primary">Search</button>
+        </form>
+      </div>
+      <div class="col-sm-12">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">product name</th>
+              <th scope="col">price</th>
+              <th scope="col">product</th>
+            </tr>
+          </thead>
+          <tbody id="light-table-data">
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+    
+<!--    footer-->
+  <footer>
+    <div class="jumbotron jumbotron-fluid">
+     <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-2">
+        <img class="logo" src="image/logo_bel.jpg.png" width="80" height="70">
+      </div>
+      <div class="col-sm-6">
+        <div class='bel'> BEL Smart Street Lighting </div>
+      </div>
+    </div>
+      <br><br><br>
+      <div id="footer" class="row">
+        <div class="col-sm-10">
+          <div class="row">
+            <div class="col-sm-2">
+                <img src="image/face_bel.jpg" width="50" height="50"> <br>Follow us on facebook 
+                <br> Belsmt 
+            </div>
+            <div class="col-sm-2"> <img src="image/mail_bel.jpg" width="50" height="50"> <br>Email us
+                <br> bel@gmail.com</div>
+            <div class="col-sm-2"> <img src="image/twitter_bel.jpg" width="50" height="50">
+                <br> Follow us 
+                <br> on Twitter @Belsmt</div>
+            <div class="col-sm-2"> <img src="image/phone_bel.jpg" width="50" height="50">
+                <br>Call us
+                <br> 0203445688</div>
+            <div class="col-sm-2"> <img src="image/insta.jpg.png" width="50" height="50">
+                <br> Follow us
+                <br> on instagram Bel@smt </div></div>
+        </div>
+        <div class="col-sm-2">
+          Terms and Conditions<br>
+          Privacy policy<br>
+          Copyright © 2021 BEL<br>
+        </div>
+      </div>
+        </div></div>
+  </footer>
+</body>
+</html>

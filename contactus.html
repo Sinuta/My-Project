@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Smart street lighting</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <script src="script/script4.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
+
+<body>
+<!--    logo-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-2">
+        <img class="logo" src="image/logo_bel.jpg.png" width="80" height="70">
+      </div>
+      <div class="col-sm-6">
+        <div class='bel'> BEL Smart Street Lighting </div>
+      </div>
+    </div>
+  </div> <br><br>
+    
+<!--    buttons-->
+  <div class=butttons>
+    <div id="buttons">
+     <a class="btn btn-primary" href="BELsmartstreetlight.html" role="button">Home</a>
+      <a class="btn btn-primary" href="Features.html" role="button">Features</a>
+      <a class="btn btn-primary" href="Ourproducts.html" role="button">Our products</a>
+      <a class="btn btn-primary" href="Servicesweprovide.html" role="button">Services we provide</a>
+      <a class="btn btn-primary" href="contactus.html" role="button">Contact us</a>
+  </div>
+</div>
+    
+<!--    bread crumb-->
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="BELsmartstreetlight.html">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Contact us</li>
+    </ol>
+  </nav><br>
+    
+<!--form-->
+  <h5> Write here your message and one of our team members will contact you as soon as possible</h5>
+  <form class="main-form">
+    <div class="row">
+      <div class="col">
+        <div class="form-group">
+          <label for="firstname">First name</label>
+          <input required type="text" class="form-control" id="firstname" placeholder="Enter your Firstname">
+          <div class="valid-feedback">Looks good</div>
+          <div id="firstname-feedback" class="invalid-feedback">Please fill out your firstname</div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-group">
+          <label for="Lastname">Last name</label>
+          <input required type="text" class="form-control" id="lasttname" placeholder="Enter your Lasttname">
+          <div class="valid-feedback">Looks good</div>
+          <div id="lastname-feedback" class="invalid-feedback">Please fill out your firstname</div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input required type="email" class="form-control" id="email" placeholder="Email">
+          <div class="valid-feedback">Looksgood</div>
+          <div id="email-feedback" class="invalid-feedback">Please fill out your email</div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="form-group">
+          <label for="state ">State</label>
+          <select required type="text" class="form-control" id="state" placeholder="state">
+            <option selected disabled value=""> choose state </option>
+            <option value="eng">Abu Dhabi</option>
+            <option value="doc">Dubai</option>
+            <option value="dev">Fujairah</option>
+            <option value="dev">Ajman</option>
+            <option value="dev">Ra's al-Khaimah</option>
+            <option value="dev">Umm al-Qaiwain</option>
+          </select>
+          <div class="valid-feedback">Looksgood</div>
+          <div id="state-feedback" class="invalid-feedback">Please fill out your state</div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-group">
+          <label for="zip">Zip</label>
+          <input required type="text" class="form-control" id="zip" placeholder=" ">
+          <div class="valid-feedback">Looksgood</div>
+          <div id="zip-feedback" class="invalid-feedback">Please fill your zip code</div>
+        </div>
+      </div>
+    </div>
+      <div class="row">
+      <div class="col">
+     <label for="city">City</label>
+    <input required type="text" class="form-control" id="city" placeholder="your city">
+    <div class="valid-feedback">Looksgood</div>
+          <div id="city-feedback" class="invalid-feedback">Please fill out your city</div></div></div>
+
+   <div class="row">
+      <div class="col"> <div class="form-group">
+      <label for="message">Message</label>
+      <textarea required type="text" class="form-control" id="message" rows="6" cols="100" maxlength="40"> </textarea>
+      <div class="valid-feedback">Looksgood</div>
+      <div id="message-feedback" class="invalid-feedback">Please write out any message</div>
+          </div></div></div>
+    <div class="row">
+      <div class="col"><div class="form-check">
+      <input required type="checkbox" class="form-check-input" id="agree_terms">
+      <label class="agree_terms" for="agree_terms">Agree to Terms</label>
+      <div class="valid-feedback">&#10004;</div>
+      <div class="invalid-feedback">Please agree to the terms</div>
+          </div></div></div>
+      <div class="row">
+          <div class="col"> <button onclick="validate();" type="submit" class="btn btn-success">Submit form</button></div></div>
+  </form><br><br>
+    
+<!--    Footer-->
+  <footer>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-2">
+        <img class="logo" src="image/logo_bel.jpg.png" width="80" height="70">
+      </div>
+      <div class="col-sm-6">
+        <div class='bel'> BEL Smart Street Lighting </div>
+      </div>
+    </div>
+  </div>
+      <br><br><br>
+      <div id="footer" class="row">
+        <div class="col-sm-10">
+          <div class="row">
+            <div class="col-sm-2">
+                  <img src="image/face_bel.jpg" width="50" height="50"> <br>Follow us on facebook 
+                <br> Belsmt 
+            </div>
+            <div class="col-sm-2"> <img src="image/mail_bel.jpg" width="50" height="50"> <br>Email us
+                <br> bel@gmail.com</div>
+            <div class="col-sm-2"> <img src="image/twitter_bel.jpg" width="50" height="50">
+                <br> Follow us 
+                <br> on Twitter @Belsmt</div>
+            <div class="col-sm-2"> <img src="image/phone_bel.jpg" width="50" height="50">
+                <br>Call us
+                <br> 0203445688</div>
+            <div class="col-sm-2"> <img src="image/insta.jpg.png" width="50" height="50">
+                <br> Follow us
+                <br> on instagram Bel@smt </div></div>
+        </div>
+        <div class="col-sm-2">
+          Terms and Conditions<br>
+          Privacy policy<br>
+          Copyright © 2021 BEL<br>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
